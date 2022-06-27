@@ -13,36 +13,36 @@ html {
 
 hr {
     border:none;
-    width: 60vh;
+    width: 60%;
     border-bottom: 3px solid #ffffff;
     box-shadow: 0 20px 20px -20px rgb(84, 83, 83);
-}
+} 
 
 .contact-hr {
     border:none;
-    width: 60vh;
+    width: 60%;
     border-bottom: 3px solid #000000;
     box-shadow: 0 20px 20px -20px rgb(84, 83, 83);
 
-}
+} 
 
 .head-title {
     font-size: 4rem;
     line-height: 4rem;
-}
+} 
 
 #about {
     background-color: #1abc9c;
-}
+} 
 
 .about-me-head, .contact-me-head{
     font-size: 3rem;
     line-height: 3rem;
-}
+} 
 
 .feature-icon {
     background-color: #1abc9c;
-}
+} 
 
 .feature-title{
     height:4.5rem;
@@ -55,14 +55,13 @@ hr {
 .navbar-toggler {
     background-color: #1abc9c;
 }
-
 .navbar-toggler-icon {
     color: white;
-}
+} 
 
 #nav .nav-link:hover{
     color: #1abc9c !important;
-}
+} 
 
 @media (max-width: 992px) {
     .feature-title{
@@ -77,6 +76,12 @@ hr {
     }
 }
 
+@media (max-width: 460px){
+    .feature-title{
+        margin-bottom: 1.7rem;
+    }
+}
+
 @media (min-width: 992px) {
     #nav {
         height: 8vh;
@@ -85,3 +90,4 @@ hr {
         font-size: 1.9rem;
     }
 }
+

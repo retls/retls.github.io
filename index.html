@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="page-top">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg text-uppercase fw-bold fixed-top py-4" id="nav">
-        <div class="container ">
+        <div class="container">
             <a class="navbar-brand text-white" href="#page-top">Simon Retelj</a>
             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,19 +34,20 @@
     
     <!-- Header page -->
     <header class="head text-white text-center px-6">
-        <div class="container d-flex align-items-center flex-column">
+        <div class="container align-items-center d-flex flex-column">
             <img class="head-logo mb-5" src="./assets/face.png" alt="" width="300" height="300">
             <h1 class="head-title display-5 fw-bold text-uppercase mb-4">Simon Retelj</h1>
             <hr>
             <div class="col-lg-6 mt-3 align-items-center">
               <p class="lead fw-bold mb-5">Aspiring Web Developer</p>
             </div>
+
         </div>
     </header>
     
     <!-- Learning path section -->
     <section id="learningPath">
-        <div class="container px-4 py-5" id="featured-3">
+        <div class="container py-5" id="featured-3">
             <h2 class="pb-2 border-bottom text-uppercase fw-bold">Learning Path</h2>
             <div class="row g-4 py-5 row-cols-lg-3 row-cols-1 ">
                 <div class="feature col">
@@ -91,21 +92,16 @@
 
     <!-- About section -->
     <section class="text-white" id="about">
-        <div class="container d-flex align-items-center flex-column py-5">
+        <div class="container align-items-center d-flex flex-column py-5">
             <h2 class="about-me-head fw-bold text-center text-uppercase">About me</h2>
             <hr>
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
             <div class="row">
-                <div class="col-lg-5 ms-auto col-sm-10 mx-auto col-10 mx-auto"><p class="lead">I'm Simon Retelj, from Novo mesto. I currently work at NLB as software developer on banks core 
+                <div class="col-lg-5 col-sm-10 mx-auto col-10 mx-auto"><p class="lead">I'm Simon Retelj, from Novo mesto. I currently work at NLB as software developer on banks core 
                     for retail. My task involve maintaining the core and implementing new features. The system i'm working on is using old techologies such as 
                     COBOL, JCL and CICS and is ran on IBM Mainframes. On the count of being obsolete it is sheduled for replacementin in the next year or two, which has given me the opportunity 
                     to start searching for a new job. Since i've been working with old techonology for few years, i'm really looking forward to working and 
                     learning modern technologies. </p></div>
-                <div class="col-lg-5 ms-auto col-sm-10 mx-auto col-10 mx-auto"><p class="lead"> I'm especially interested in web development. As seen in section above i've started working on my web 
+                <div class="col-lg-5 col-sm-10 mx-auto col-10 mx-auto"><p class="lead"> I'm especially interested in web development. As seen in section above i've started working on my web 
                     development knowledge in my spare time by completing some Udemy courses, now my next goal is to start some of my own projects, that i will be 
                     able to showcase on this page in the future. I'm at the very beginning of my yourney in web development and looking forward to working in web
                     development field. I'm hopefull i will get opportunity to work with experienced web developers, because i'm very 
@@ -121,7 +117,7 @@
 
     <!-- Contact section -->
     <section id="contact">
-        <div class="container">
+        <div class="container-fluid">
             <h2 class="contact-me-head text-center fw-bold text-uppercase mt-5">Contact Me</h2>
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-7 mt-0">
@@ -155,10 +151,10 @@
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h5 class="text-uppercase mb-4 fw-bold">Menu</h4>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-white">Home</a></li>
-                        <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-white">Learning path</a></li>
-                        <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-white">About</a></li>
-                        <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-white">Contact</a></li>
+                        <li class="nav-item mb-2"><a href="#page-top" class="nav-link p-0 text-white">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#learningPath" class="nav-link p-0 text-white">Learning path</a></li>
+                        <li class="nav-item mb-2"><a href="#about" class="nav-link p-0 text-white">About</a></li>
+                        <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 text-white">Contact</a></li>
                     </ul>
                 </div>
 
