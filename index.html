@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg text-uppercase fw-bold fixed-top py-4" id="nav">
+        <div class="container ">
+            <a class="navbar-brand text-white" href="#page-top">Simon Retelj</a>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link text-uppercase text-white col-hov py-3 px-0 px-lg-3 rounded" href="#learningPath" aria-current="page">Learning Path</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link text-uppercase text-white col-hov py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link text-uppercase text-white col-hov py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            </header>
+        </div>
+    </nav>
+    
+    <!-- Header page -->
+    <header class="head text-white text-center px-6">
+        <div class="container d-flex align-items-center flex-column">
+            <img class="head-logo mb-5" src="./assets/face.png" alt="" width="300" height="300">
+            <h1 class="head-title display-5 fw-bold text-uppercase mb-4">Simon Retelj</h1>
+            <hr>
+            <div class="col-lg-6 mt-3 align-items-center">
+              <p class="lead fw-bold mb-5">Aspiring Web Developer</p>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Learning path section -->
+    <section id="learningPath">
+        <div class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom text-uppercase fw-bold">Learning Path</h2>
+            <div class="row g-4 py-5 row-cols-lg-3 row-cols-1 ">
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient text-white fs-2 mb-3">
+                        <img class="js-pic" src="./assets/python.svg" alt="" width="100" height="100">
+                    </div>
+                    <h2 class="feature-title">From Zero to Hero in Python</h2>
+                    <p>I started with learning basics of Python. Goal here was just to get familiar with a newer programing language that is easy to start and 
+                        is apllicable in web development field.
+                    </p>
+                    <a href="https://www.udemy.com/course/complete-python-bootcamp/" class="btn btn-primary">
+                        Course link
+                    </a>
+                </div>  
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient text-white fs-2 mb-3">
+                        <img class="js-pic" src="./assets/javascript.svg" alt="" width="100" height="100">
+                    </div>
+                    <h2 class="feature-title">The Web Developer Bootcamp 2022</h2>
+                    <p>I completed course on web development that is in JavaScript and covers all the basics from frontend to backend. 
+                        HTML, CSS, Javascript, Node and Express framework and many other smaller librariers.
+                    </p>
+                    <a href="https://www.udemy.com/course/the-web-developer-bootcamp/" class="btn btn-primary">
+                        Course link
+                    </a>
+                </div>
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient text-white fs-2 mb-3">
+                        <img class="js-pic" src="./assets/github.svg" alt="" width="100" height="100">
+                    </div>
+                    <h2 class="feature-title">Github</h2>
+                    <p>My Github currently contains code involves code exercises  from Advent of Code which are great for improving syntax 
+                        knowledge and logical thinking. In the future i plan to uploud my own projects.
+                    </p>
+                    <a href="https://github.com/retls" class="btn btn-primary">
+                        My Github link
+                    </a>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- About section -->
+    <section class="text-white" id="about">
+        <div class="container d-flex align-items-center flex-column py-5">
+            <h2 class="about-me-head fw-bold text-center text-uppercase">About me</h2>
+            <hr>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 ms-auto col-sm-10 mx-auto col-10 mx-auto"><p class="lead">I'm Simon Retelj, from Novo mesto. I currently work at NLB as software developer on banks core 
+                    for retail. My task involve maintaining the core and implementing new features. The system i'm working on is using old techologies such as 
+                    COBOL, JCL and CICS and is ran on IBM Mainframes. On the count of being obsolete it is sheduled for replacementin in the next year or two, which has given me the opportunity 
+                    to start searching for a new job. Since i've been working with old techonology for few years, i'm really looking forward to working and 
+                    learning modern technologies. </p></div>
+                <div class="col-lg-5 ms-auto col-sm-10 mx-auto col-10 mx-auto"><p class="lead"> I'm especially interested in web development. As seen in section above i've started working on my web 
+                    development knowledge in my spare time by completing some Udemy courses, now my next goal is to start some of my own projects, that i will be 
+                    able to showcase on this page in the future. I'm at the very beginning of my yourney in web development and looking forward to working in web
+                    development field. I'm hopefull i will get opportunity to work with experienced web developers, because i'm very 
+                    eager to learn, improve and collaborate with anyone who will give me the opportunity.</p></div>
+            </div>
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light" rel="noopener noreferrer"href="./assets/SimonRetelj_cv.pdf" download>
+                    <!-- <i class="fas fa-download me-2"></i> -->
+                    Download My CV!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="contact-me-head text-center fw-bold text-uppercase mt-5">Contact Me</h2>
+
+            <div class="row justify-content-center">
+                
+                <div class="col-lg-8 col-xl-7 mt-0">
+                    <hr class="contact-hr mx-auto">
+                    <form target="_blank" action="https://formsubmit.co/bd7fadfc3b3e46f44b08d972f1542349" method="POST">
+                        <div class="pt-5">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..."  required/>
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" required/>
+                                <label for="email">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-xl mb-3" id="submitButton" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer navbar, credits and copy -->
+    <footer class="text-center text-white" id="footer">
+        <div class="container py-4">
+            <div class="row">
+
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h5 class="text-uppercase mb-4 fw-bold">Menu</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-white">Home</a></li>
+                        <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-white">Learning path</a></li>
+                        <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-white">About</a></li>
+                        <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-white">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h5 class="text-uppercase fw-bold">Icons</h5>
+                    <ul class="nav flex-column py-3">
+                        <li class="nav-item mb-2"><a href="https://iconscout.com/icons/face" class="nav-link p-0 text-white">Face Icon on Icon Scout</a></li>
+                        <li class="nav-item mb-2"><a href="https://icons8.com/icon/39854/javascript" class="nav-link p-0 text-white">JavaScript Icon by Icons8</a></li>
+                        <li class="nav-item mb-2"><a href="https://icons8.com/icon/12592/python" class="nav-link p-0 text-white">Python Icon by Icons8</a></li>
+                        <li class="nav-item mb-2"><a href="https://icons8.com/icon/12599/github" class="nav-link p-0 text-white">Github Icon by Icons8</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 my-auto">
+                    <p class="lead mb-2">&copy; 2022 Simon Retelj</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
